@@ -1,0 +1,12 @@
+title: md-collection
+description: Markdown 문서를 모아두는 저장소
+lang: ko-KR
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
+  - .github/
